@@ -1,0 +1,68 @@
+{
+  "name": "Modern Light",
+  "dataColors": [
+    "#2563EB",
+    "#16A34A",
+    "#D97706",
+    "#DC2626",
+    "#7C3AED",
+    "#0891B2",
+    "#DB2777",
+    "#65A30D",
+    "#EA580C",
+    "#4F46E5"
+  ],
+  "background": "#F3F6F9",
+  "foreground": "#0F172A",
+  "tableAccent": "#2563EB",
+  "good": "#16A34A",
+  "neutral": "#EAB308",
+  "bad": "#DC2626",
+  "maximum": "#16A34A",
+  "center": "#EAB308",
+  "minimum": "#DC2626",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": { "color": { "solid": { "color": "#FFFFFF" } } },
+        "border": { "color": { "solid": { "color": "#E5E7EB" } } },
+        "title": {
+          "fontColor": { "solid": { "color": "#0F172A" } },
+          "alignment": "left"
+        },
+        "header": {
+          "fontColor": { "solid": { "color": "#0F172A" } },
+          "backColor": { "solid": { "color": "#F1F5F9" } }
+        },
+        "values": {
+          "fontColor": { "solid": { "color": "#0F172A" } }
+        },
+        "background": {
+          "color": { "solid": { "color": "#FFFFFF" } }
+        }
+      }
+    }
+  },
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#0F172A",
+      "fontSize": 12
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#0F172A",
+      "fontSize": 11
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#0F172A",
+      "fontSize": 10
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#2563EB",
+      "fontSize": 28
+    }
+  }
+}
